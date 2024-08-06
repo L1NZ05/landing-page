@@ -159,7 +159,7 @@ a {
     height: auto;
 }
 .author {
-    align-self: flex-end;
+    text-align: right;
 }
 
 .signup-block {
@@ -180,7 +180,8 @@ a {
     padding: 30px 80px 30px 80px;
     flex: 0 1 700px;
     height: 300;
-}.button-2 {
+}
+.button-2 {
     display: flex;
     align-self: flex-end;
     background-color: #3882f6;
