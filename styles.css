@@ -189,3 +189,12 @@ a {
     border-radius: 8px;
     padding: 2px 20px 2px 20px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px 25px 0px;
+}
