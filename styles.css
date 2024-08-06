@@ -1,14 +1,23 @@
 
 @font-face {
+    font-family: Hero-light;
+    src: url(./fonts/Hero-Light.otf);
+    font-weight: lighter;
+}
+
+@font-face {
     font-family: Hero;
     src: url(./fonts/Hero-Regular.otf);
 }
+
 
 @font-face {
     font-family: Hero;
     src: url(./fonts/Hero-Bold.otf);
     font-weight: bold;
 }
+
+
 
 body {
     display: flex;
@@ -83,7 +92,7 @@ a {
     color: white;
     font-weight: bold;
     border-color: #3882f6;
-    b
+    border-radius: 10px;
 }
 
 .info-con {
@@ -119,12 +128,64 @@ a {
 }
 
 .card {
-    display: flex;
     border: 5px solid #3882f6;
     width: 150px;
     height: 150px;
+    border-radius: 20px;
 }
 
 .description {
     text-align: center;
+}
+
+.quote-block {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 80px 100px 40px 100px;
+}
+
+.quote {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Hero-light;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 36px;
+    max-width: 710px;
+    height: auto;
+}
+.author {
+    align-self: flex-end;
+}
+
+.signup-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 80px 100px 80px 100px;
+}
+
+.signup-con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 20px;
+    padding: 30px 80px 30px 80px;
+    flex: 0 1 700px;
+    height: 300;
+}.button-2 {
+    display: flex;
+    align-self: flex-end;
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    padding: 2px 20px 2px 20px;
 }
